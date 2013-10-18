@@ -105,7 +105,7 @@
 				
 				// Generate weekdays
 				$weekdays = new XMLElement('weekdays');
-				$count = 1;
+				$count = 0;
 				foreach($storage['weekdays'] as $weekday) {
 					$weekdays->appendChild(new XMLElement(
 						'day', 
